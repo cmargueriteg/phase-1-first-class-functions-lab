@@ -26,6 +26,8 @@ describe('index.js', function () {
       expect(selectingDrivers[1]).to.eql(returnLastTwoDrivers);
     });
 
+
+
     it('allows us to invoke either function from the array', function () {
       expect(selectingDrivers[0](drivers)).to.eql(['Antonia', 'Nuru']);
 
